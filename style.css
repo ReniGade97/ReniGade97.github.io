@@ -1,0 +1,117 @@
+.header {
+  grid-area: header;
+	padding: 5rem;
+	border: 7px solid #2F4F4F;
+  background-color: #66CDAA;
+  width: 100%;
+  grid-template-rows: 80px;
+  grid-area: h;
+  margin: auto, auto;
+}
+
+.boxed {
+  border: 10px groove white;
+  width: 40%;
+
+}
+.sideBar {
+  grid-template-columns: 150px;
+  background-color: #A9A9A9;
+  grid-area: s;
+  margin-right: 20px;
+  margin-left: 60px;
+  width: 90%;
+}
+.contact-details, .social-media {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.site {
+  width: 30px;
+  height: 30px;
+}
+
+.phone {
+  height: 30px;
+  width: 200;
+  margin-top: 20px;
+  /*margin-left: 20px;*/
+}
+
+.email {
+  height: 30px;
+  width: 200;
+  /*margin-left: 20px;*/
+}
+
+.mainContent {
+  background-color: #FAEBD7;
+  grid-area: c;
+  margin-right: -100px;
+  margin-left: 30px;
+}
+
+.skills {
+	overflow: hidden;
+  float: left;
+  width: 50%;
+}
+
+
+
+body{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 30px;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-areas:
+                        "h h h"
+                        "s c c";
+}
+
+.pic {
+  width: 80%;
+  height: 300px;
+  border-radius: 50%;
+  margin: 25px;
+}
+
+/*.phone{
+
+}*/
+
+.work-container{
+  display: flex;
+}
+
+.work-body{
+  width: 35%;
+  box-sizing: border-box;
+}
+
+.line {
+  border-bottom: 1px dashed #000;
+  width: 150%;
+  height: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0 none;
+  margin-top: 100px;
+  margin-bottom:100px;
+
+}
+
+.edu-container{
+  display: flex;
+}
+
+.edu-body{
+  width: 35%;
+}
+
+.item {
+
+}
